@@ -1,0 +1,47 @@
+Exercicios:
+1. Criar um programa que avalia uma proposta de empréstimo.
+   O programa recebe: idade do cliente, quanto dinheiro ele quer emprestar, quanto ele ganha por mes.
+
+   REGRAS para aceita o empréstimo:
+   - Entre 22 e 55 anos;
+   - Valor a partir de 1000 reais;
+   - Valor não pode ultrapassar 15x o que ele recebe
+
+   RESPONDER: ACEITO OU NÃO ACEITO
+
+   EXTRA:
+   - Perguntar também a quantidade de parcelas (3 a 20 vezes) e calcular juros de 8% ao mês (COMPOSTO)
+   RESPONDER VALOR TOTAL DO EMPRESTIMO E VALOR Da PARCELA.
+
+2. Adivinhe o número.
+   Criar um variável com um número entre 0 e 50;
+   Criar um prompt para que o usuário tente adivinhar o número.
+   Se ele acertou, então dar os parabéns e encerrar.
+   Se for um número baixo, responder é maior
+   Se for um número alto, responder que é menor.
+
+   extra: Pesquisarcódigo para gerar o número secreto aleatoriamente. 
+
+3. Desenhar uma escadinha no console, usando console.log();
+   Perguntar ao usuário o tamanho da escadinha. Exemplo de escadinha tamanho 5:
+   #
+   ##
+   ###
+   ####
+   #####
+
+   EXTRA: perguntar ao usuario tambem qual o caracter (material) para construir a escadinha
+
+4. Crie duas listas no seu script, uma de 5 meninos e uma de 5 meninas
+    ex:
+
+    Como as festas juninas estão chegando, os meninos e meninas vão formar duplas para dançar quadrilha.
+
+    Use o console.log para mostrar no console TODAS as duplas possíveis entre meninos e meninas.
+
+5. Usar janelinhas de prompt para cadastrar um usuário, com nome, login, senha, data de nascimento, 
+   premium(booleano- dica usar confrm ao inves de prompt). Salavr esses dados em um objetp e imprimir
+   no console.
+
+   EXTRA:
+   exibir também no console a idade do usuario no dia do hexa! Calculada a partir da data de nascimento.
