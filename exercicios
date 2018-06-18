@@ -20,7 +20,7 @@ Exercicios:
    Se for um número baixo, responder é maior
    Se for um número alto, responder que é menor.
 
-   extra: Pesquisarcódigo para gerar o número secreto aleatoriamente. 
+   extra: Pesquisar código para gerar o número secreto aleatoriamente. 
 
 3. Desenhar uma escadinha no console, usando console.log();
    Perguntar ao usuário o tamanho da escadinha. Exemplo de escadinha tamanho 5:
@@ -40,7 +40,7 @@ Exercicios:
     Use o console.log para mostrar no console TODAS as duplas possíveis entre meninos e meninas.
 
 5. Usar janelinhas de prompt para cadastrar um usuário, com nome, login, senha, data de nascimento, 
-   premium(booleano- dica usar confrm ao inves de prompt). Salavr esses dados em um objetp e imprimir
+   premium (booleano- dica usar confirm ao inves de prompt). Salvar esses dados em um objeto e imprimir
    no console.
 
    EXTRA:
