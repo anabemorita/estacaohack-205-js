@@ -19,7 +19,7 @@ while(numero !== chute){
         chute = Number(prompt("O número é menor. Digite um novo palpite"));
     }
     else{
-        chute = Number(alert("O número é maior. Digite um novo palpite"));
+        chute = Number(prompt("O número é maior. Digite um novo palpite"));
     }
 
 }
