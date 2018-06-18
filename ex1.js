@@ -67,13 +67,14 @@ if(emprestar){
     let parcelas = Number(prompt("Em quantas prestações pretende pagar?"));
     let montante;
 
-    if(prestacao > 2 && prestacao < 21){
-        montante = cliente.valor * Math.pow(1 + 0.08, prestacao);
+    if(parcelas > 2 && parcelas < 21){
+        montante = cliente.valor * Math.pow(1 + 0.08, parcelas);
     }
-
-    let prestacao = montante / parcelas;
+    montante = montante.toFixed(2);
+    let parcelaValor = montante / parcelas;
+    parcelaValor = parcelaValor.toFixed(2);
     alert("ACEITO");
-    alert(`O valor total do empréstimo é de R$${montante} reais, a serem pagos em ${parcelas} parcelas de R$${prestacao}`);
+    alert(`O valor total do empréstimo é de R$${montante} reais, a serem pagos em ${parcelas} parcelas de R$${parcelaValor}`);
 }
 else{
     alert("NÃO ACEITO");
