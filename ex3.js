@@ -4,8 +4,9 @@ let escada = [];
 let contador = 0;
 
 while(contador <= tamanho){    
-    escada[contador] = material.repeat(cpntador + 1) + "\n"; // .repeat() repete o que tiver antes do ponto o numero de vees que for passado no ()
+    escada[contador] = material.repeat(contador + 1) + "\n"; // .repeat() repete o que tiver antes do ponto o numero de vees que for passado no ()
+    console.log(escada[contador]);
     contador ++;
 }
 
-console.log(escada);
+
